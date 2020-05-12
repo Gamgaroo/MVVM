@@ -1,0 +1,18 @@
+{
+  "name": "com.gamgaroo.mvvm",
+  "version": "0.1.0",
+  "displayName": "Gamgaroo/MVVM",
+  "description": "Package for MVVM development in Unity.",
+  "dependencies": {
+    "com.gamgaroo.reactive": "https://github.com/Gamgaroo/Reactive.git#0.1.2"
+  },
+  "keywords": [
+    "Gamgaroo",
+    "MVVM"
+  ],
+  "author": {
+    "name": "Gamgaroo Studios",
+    "email": "info@gamgaroo.com",
+    "url": "https://github.com/Gamgaroo"
+  }
+}
