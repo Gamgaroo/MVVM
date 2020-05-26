@@ -1,13 +1,21 @@
-In Unity Package Manager click "Add package from git URL..." and paste
+# Gamgaroo.MVVM
 
-> git://github.com/Gamgaroo/MVVM
+## Package
 
-to add latest version or
+[![](https://img.shields.io/github/v/release/Gamgaroo/MVVM?include_prereleases)](https://github.com/Gamgaroo/MVVM/releases)
+[![](https://img.shields.io/npm/v/com.gamgaroo.mvvm?label=MyGet&registry_uri=https://www.myget.org/F/gamgaroo/npm/)](https://www.myget.org/feed/gamgaroo/package/npm/com.gamgaroo.mvvm)
+[![](https://img.shields.io/github/license/Gamgaroo/MVVM.svg)](https://github.com/Gamgaroo/MVVM/blob/master/LICENSE.md)
 
-> git://github.com/Gamgaroo/MVVM#0.1.0
+## Description
 
-for 0.1.0 version or any other specific version ([Releases](https://github.com/Gamgaroo/MVVM/releases))
+This package contains common abstractions and implementations for MVVM development in Unity.
 
-Click [here](https://docs.unity3d.com/Manual/upm-git.html) for more info about Unity Package Manager and Git URLs.
+More detailed documentation and samples will be available soon.
+
+## Installation
+
+Read the [Documentation](https://github.com/Gamgaroo/Docs#Installation) to find out how you can install packages.
+
+## Feedback
 
 Any feedback would be greatly appreciated. Thank you.
