@@ -5,20 +5,13 @@ namespace Gamgaroo.MVVM.Runtime.Extensions
 {
     public static class ViewExtensions
     {
-        public static void Bind<T>(this IView<T> view, IReactiveProperty<T> property)
+        public static void Bind<T>(this IView<T> view, IReadOnlyReactiveProperty<T> property)
         {
-            if (property != null)
-            {
-                property.OnValueChanged += view.Set;
-                view.Set(property.Value);
-            }
-            else
-            {
-                view.Set(default);
-            }
+            property.OnValueChanged += view.Set;
+            view.Set(property.Value);
         }
 
-        public static void Unbind<T>(this IView<T> view, IReactiveProperty<T> property)
+        public static void Unbind<T>(this IView<T> view, IReadOnlyReactiveProperty<T> property)
         {
             property.OnValueChanged -= view.Set;
             view.Set(default);
