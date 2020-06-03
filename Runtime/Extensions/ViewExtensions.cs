@@ -1,5 +1,5 @@
-﻿using Gamgaroo.MVVM.Runtime.Abstractions;
-using Gamgaroo.Reactive.Runtime.Abstractions;
+﻿using Gamgaroo.Reactive.Runtime.Abstractions;
+using Gamgaroo.View.Runtime.Abstractions;
 
 namespace Gamgaroo.MVVM.Runtime.Extensions
 {
