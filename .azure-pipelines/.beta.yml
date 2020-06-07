@@ -1,0 +1,31 @@
+# Beta Build
+name: $(Build.SourceBranchName)-beta$(rev:.r)
+
+trigger:
+- release/*
+- hotfix/*
+pr: none
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: VersionJSONFile@2
+  inputs:
+    Path: '$(Build.SourcesDirectory)'
+    recursion: false
+    VersionNumber: '$(Build.BuildNumber)'
+    useBuildNumberDirectly: true
+    FilenamePattern: 'package.json'
+    OutputVersion: 'OutputedVersion'
+
+- task: CopyFiles@2
+  inputs:
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
