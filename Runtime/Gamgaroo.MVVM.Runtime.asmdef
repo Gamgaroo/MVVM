@@ -1,16 +1,16 @@
 {
-    "name": "Gamgaroo.MVVM.Runtime",
-    "references": [
-        "GUID:31a7c63c0239d544095d26257f886486",
-        "GUID:32e0040abf26a6940976965bd20dd99d"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
+  "name": "Gamgaroo.MVVM.Runtime",
+  "references": [
+    "GUID:31a7c63c0239d544095d26257f886486",
+    "GUID:32e0040abf26a6940976965bd20dd99d"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
 }
